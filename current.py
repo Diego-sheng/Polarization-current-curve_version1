@@ -28,6 +28,7 @@ matrix=[]
 name=['1','2','3','4','5','6','7','8','9','BiN3O1','InO4']
 OERelta=[0.38,0.39,0.38,0.30,0.64,0.81,0.45,0.49,0.78,1.07,1.42]
 ORRelta=[0.39,0.51,0.70,0.35,0.25,0.33,0.53,0.45,0.48,0.48,0.52]
+j0=current_standard(Gmax)
 for i in range(len(name)):
     row=[]
     for j in range(len(E)):
